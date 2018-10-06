@@ -1,0 +1,11 @@
+a=int(input("value:"))
+b=0
+x=a
+while(x>0):
+    y=x%10
+    b+=y**3
+    x//=10
+if(a==b):
+    print("yes")
+else:
+    print("no")
