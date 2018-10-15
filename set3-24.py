@@ -2,5 +2,5 @@ x=[]
 y=int(input("value:"))
 for i in range(y):
     y=int(input("list:"))
-    x.append(x)
+    x.append(y)
     print(sorted())
